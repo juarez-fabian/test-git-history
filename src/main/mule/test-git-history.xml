@@ -10,5 +10,9 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<flow name="test-git-historyFlow" doc:id="97ac6df3-c909-40ae-b204-966072b01a04" >
 		<http:listener doc:name="Listener" doc:id="8cec851d-d3c0-47f4-9da5-d68d25decd36" config-ref="HTTP_Listener_config" path="/test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="3044b422-dc81-43b8-93e6-d3a1498c6aa7" />
+		<logger level="INFO" doc:name="Logger" doc:id="ed1990fa-182f-4bbf-b861-9bf54644becd" />
+	</flow>
+	<flow name="test-git-historyFlow1" doc:id="1cb764d4-ae09-47b8-9cf1-4fad8ed31156" >
+		<logger level="INFO" doc:name="Logger" doc:id="2b3b14f1-15c8-48c8-94b8-d7774491ad1f" />
 	</flow>
 </mule>
